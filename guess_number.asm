@@ -76,8 +76,7 @@ clear_stdin:
 	; INFO: void clear_stdin()
 	; Drains stdin byte-by-byte until it hits a newline.
 
-	; INFO: This `clear_stdin` exists because of how `read` works, at least
-	; in x86 ASM.
+	; INFO: This `clear_stdin` exists due to how the `read` syscall works.
 	; While `rdx` is the maximum number of bytes read, it's NOT the maximum
 	; number of bytes that'll actually go into stdin, and it's NOT "how
 	; many bytes will definitely be read". Also, we set rdx to 4 bytes
