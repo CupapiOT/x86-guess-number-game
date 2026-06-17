@@ -2,6 +2,8 @@
 
 A simple game made to learn how to handle user input in Assembly code.
 
+https://github.com/user-attachments/assets/eda9b820-d3bf-40cc-9748-8249eef3e18c
+
 ## Features
 
 - **Core Features**
@@ -20,6 +22,12 @@ A simple game made to learn how to handle user input in Assembly code.
     number from 1 to `MAX`."
   - Inputting non-numbers prints the same thing.
   - Inputting anything greater than the number of digits `MAX` does so as well.
+
+## Stack
+
+- x86 Assembly (Netwide Assembler syntax)
+- GDB for debugging
+- C stdlib functions for printing and generating a random number
 
 ## Footnotes
 
